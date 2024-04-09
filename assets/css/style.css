@@ -15,7 +15,7 @@
     --cor-terciaria: #ffffff;
 
     --cor-fundo1: #DCD2C6;
-    --cor-fundo2: ;
+    --cor-fundo2: #E6E3DC;
     --cor-fundo3: ;
     --cor-fundo4: ;
     --cor-fundo5: ;
@@ -54,22 +54,34 @@
 
 main{
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 .primeira__secao{
+    padding: 80px;
+    margin-top: 63px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    background: var(--cor-fundo2);
+    font-family: var(--fonte-principal);
 }
 
 .titulo{
-
+    font-weight: var(--peso-fonte-normal);
+    text-align: center;
+    font-size: 3rem;
 }
 
 .conteudo{
-
+    width: 44%;
+    font-weight: var(--peso-fonte-normal);
+    text-align: center;
+    font-size: 1rem;
 }
 
 .botao{
-    
+    width: 272px;
 }
 
